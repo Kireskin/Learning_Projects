@@ -1,0 +1,14 @@
+D:\Projects\Course Console\bin\Debug\net8.0\Course Console.exe
+D:\Projects\Course Console\bin\Debug\net8.0\Course Console.deps.json
+D:\Projects\Course Console\bin\Debug\net8.0\Course Console.runtimeconfig.json
+D:\Projects\Course Console\bin\Debug\net8.0\Course Console.dll
+D:\Projects\Course Console\bin\Debug\net8.0\Course Console.pdb
+D:\Projects\Course Console\obj\Debug\net8.0\Course Console.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Course Console\obj\Debug\net8.0\Course Console.AssemblyInfoInputs.cache
+D:\Projects\Course Console\obj\Debug\net8.0\Course Console.AssemblyInfo.cs
+D:\Projects\Course Console\obj\Debug\net8.0\Course Console.csproj.CoreCompileInputs.cache
+D:\Projects\Course Console\obj\Debug\net8.0\Course Console.dll
+D:\Projects\Course Console\obj\Debug\net8.0\refint\Course Console.dll
+D:\Projects\Course Console\obj\Debug\net8.0\Course Console.pdb
+D:\Projects\Course Console\obj\Debug\net8.0\Course Console.genruntimeconfig.cache
+D:\Projects\Course Console\obj\Debug\net8.0\ref\Course Console.dll
