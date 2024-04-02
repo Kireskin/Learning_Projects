@@ -23,11 +23,11 @@ def get_text_length(text: str) -> int:
     return len(text)
 
 
-@tool
-def write_haiku(topic: str) -> str:
-    """Writes a haiku about a given topic."""
-    print(f"write_haiku enter with {topic=}")
-    return ChatOpenAI().predict(text=f"Write a haiku about {topic}")
+# @tool
+# def write_haiku(topic: str) -> str:
+#     """Writes a haiku about a given topic."""
+#     print(f"write_haiku enter with {topic=}")
+#     return ChatOpenAI().predict(text=f"Write a haiku about {topic}")
 
 
 def find_tool_by_name(tools: List[Tool], tool_name: str) -> Tool:
@@ -39,7 +39,7 @@ def find_tool_by_name(tools: List[Tool], tool_name: str) -> Tool:
 
 if __name__ == "__main__":
     print("Hello ReAct LangChain!")
-    tools = [get_text_length, write_haiku]
+    tools = [get_text_length]
 
     template = """
     Answer the following questions as best you can. You have access to the following tools:
@@ -69,9 +69,10 @@ if __name__ == "__main__":
     )
 
     llm = ChatOpenAI(
-        temperature=0, stop=["\nObservation"], callbacks=[AgentCallbackHandler()]
+        temperature=0, stop=["Observation"], callbacks=[AgentCallbackHandler()]
     )
     intermediate_steps = []
+
     agent = (
         {
             "input": lambda x: x["input"],
@@ -86,7 +87,8 @@ if __name__ == "__main__":
     while not isinstance(agent_step, AgentFinish):
         agent_step: Union[AgentAction, AgentFinish] = agent.invoke(
             {
-                "input": "Write a haiku about dogs and then count the length by characters?",
+                # "input": "Write a haiku about dogs and then count the length by characters?",
+                "input": "What is the length in characters of the text DOG",
                 "agent_scratchpad": intermediate_steps,
             }
         )
