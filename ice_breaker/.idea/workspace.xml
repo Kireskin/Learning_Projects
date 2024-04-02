@@ -5,16 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b952dd1-b973-42b4-9760-b83cc053acfa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agents/linkedin_lookup_agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/agents/linkedin_lookup_agent.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agents/twitter_lookup_agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/agents/twitter_lookup_agent.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ice_breaker.py" beforeDir="false" afterPath="$PROJECT_DIR$/ice_breaker.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_parsers.py" beforeDir="false" afterPath="$PROJECT_DIR$/output_parsers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/third_parties/twitter.py" beforeDir="false" afterPath="$PROJECT_DIR$/third_parties/twitter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/tools.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -37,13 +28,14 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;Python.ice_breaker_runner.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.runserver.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.ice_breaker_runner.executor&quot;: &quot;Run&quot;,
+    &quot;Python.runserver.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Projects/ice_breaker/app.py&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Projects/react-langchain&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
